@@ -1,4 +1,4 @@
-use crate::modules::vga_buffer::color::Color;
+use super::color::Color;
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 #[repr(transparent)]

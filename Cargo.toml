@@ -5,12 +5,10 @@ edition = "2021"
 authors = ["Ryan Camp"]
 
 [dependencies]
+bootloader = "0.9"
 
 [profile.dev]
 panic = "abort"
 
 [profile.release]
 panic = "abort"
-
-[build]
-target = "thumbv7em-none-eabihf"
